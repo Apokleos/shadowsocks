@@ -59,3 +59,8 @@ ExecStart=/usr/bin/ssserver -c /etc/shadowsocks.json
 WantedBy=multi-user.target
 ```
 
+app kcptun
+```
+key=hongye123;crypt=none;mode=fast2;mtu=1350;sndwnd=512;rcvwnd=512;datashard=10;parityshard=3;dscp=0;nocomp
+```
+
